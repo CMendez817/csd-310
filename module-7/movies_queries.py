@@ -1,15 +1,15 @@
 #Cameron Mendez
-#Module 6.2
-#06/28/2025
-
+#07/05/2025
+#Module 7.2
+#movies_queries.py
 
 import mysql.connector
 
 # Connect to the MySQL movies database
 db = mysql.connector.connect(
     host="localhost",
-    user="root",       # <-- MySQL username
-    password="Bangarang4$",   # <-- MySQL password
+    user="root",       		# <-- MySQL username
+    password="Bangarang4$",   	# <-- MySQL password
     database="movies"
 )
 
@@ -51,5 +51,4 @@ for film in directors:
 cursor.close()
 db.close()
 
-# Keep the window open after execution when double-clicked
 input("Press Enter to exit...")
