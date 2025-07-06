@@ -47,7 +47,7 @@ for film in directors:
     print(f"Film Name: {film[0]}")
     print(f"Director: {film[1]}\n")
 
-# Close connection
+# Close the connection
 cursor.close()
 db.close()
 
